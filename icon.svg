@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Unattended supervisor">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3d7dff"/>
+      <stop offset="1" stop-color="#7b4dff"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#g)"/>
+  <!-- Orbit: the session-scoped supervision loop. -->
+  <ellipse cx="32" cy="32" rx="19" ry="9" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"
+           transform="rotate(-28 32 32)"/>
+  <!-- Checkpoint: a verified unit of work, not a claim. -->
+  <path d="M21 32.5 L28.5 40 L43 24.5" fill="none" stroke="#ffffff" stroke-width="4.5"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Unattended marker: a single quiet dot on the orbit. -->
+  <circle cx="49.5" cy="21" r="3.4" fill="#ffffff"/>
+</svg>

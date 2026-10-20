@@ -1,0 +1,7 @@
+# Inserts one Host row. The Loader entry id, the bundle name and the Client module
+# id are intentionally the same package name; `inject` mirrors the row's module
+# exports so the Loader resolves those services before `apply` runs.
+- insert:
+    - id: unattended-supervisor
+      name: dsh-unattended-supervisor
+      inject: [agents, commands, tools, systemPrompt, storageDomain, timer]

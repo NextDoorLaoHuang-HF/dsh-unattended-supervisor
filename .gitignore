@@ -1,0 +1,6 @@
+node_modules/
+*.tgz
+coverage/
+_scratch/
+输出/
+.DS_Store
