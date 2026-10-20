@@ -4,3 +4,14 @@ coverage/
 _scratch/
 输出/
 .DS_Store
+
+# Local credentials and runtime output
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.log

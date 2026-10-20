@@ -4,7 +4,7 @@
  * DecisionMailer — QQ decision mail adapter (agently-cli) for the
  * dsh-unattended-supervisor. Pure ESM, Node built-ins only.
  *
- * Hard rules (mirrors ~/.hermes/skills/agently-mail/SKILL.md):
+ * Mail transport safety rules:
  * - Recipient is fixed from constructor config; the CLI binary must be an
  *   absolute path. Only two commands are ever issued:
  *     `message +send --to <recipient> --subject <ascii> --body-file ./<id>.txt

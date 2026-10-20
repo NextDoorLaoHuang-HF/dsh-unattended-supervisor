@@ -1,6 +1,6 @@
 // dsh-unattended-supervisor · 独立纯 JS 监督状态引擎（standalone state engine）。
 //
-// 设计边界（对应 07.misc/dsh-unattended-plugin-plan_20261016.md 第一节）：
+// 设计边界：
 // - 零依赖、零 I/O、零定时器：本文件不引入任何模块，不触碰 DSH API，不发邮件，
 //   不取消/暂停任何任务，不调用 Goal。它只维护插件自己的会话级状态。
 // - enabled 只是“无人值守插件额外行为”的门禁：OFF、markStopped、complete 自动 OFF

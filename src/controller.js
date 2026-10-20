@@ -5,10 +5,7 @@ import { SupervisorEngine } from './engine.js';
 import { DecisionMailer } from './mail.js';
 
 export const SOURCE = 'unattended-supervisor';
-// Flash routes that are actually billable on this deployment. The former
-// `commandcode` route is retired (subscription cancelled on 2026-10-17); DeepSeek
-// now runs through `amr-link`, so guiding the model to the old provider would send
-// delegation at a route with no quota left.
+// Preferred Flash routes for auxiliary delegation.
 export const FLASH_ROUTES = [
   { provider: 'zai-coding-cn', model: 'glm-5.3-flash' },
   { provider: 'amr-link', model: 'deepseek-v4.1-flash' },
